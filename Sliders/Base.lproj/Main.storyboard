@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Sliders" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vwj-l7-XC2"/>
+                        <viewControllerLayoutGuide type="bottom" id="IWR-T5-feB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RGB Sliders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wp5-yx-qFC">
+                                <rect key="frame" x="16" y="39" width="87" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Hgd-Yi-veD"/>
+                                    <constraint firstAttribute="width" constant="87" id="Hgl-Dj-t3K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="3Rz-ie-zz6">
+                                <rect key="frame" x="105" y="400" width="201" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="197" id="SZg-90-sxY"/>
+                                    <constraint firstAttribute="height" constant="30" id="rLV-mQ-BeE"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="blueSliderChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="h2B-al-PLQ"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="204" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="hfO-B9-c3t">
+                                <rect key="frame" x="105" y="320" width="201" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="WWT-yg-Anw"/>
+                                    <constraint firstAttribute="width" constant="197" id="qqK-Vb-jYM"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="greenSliderChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Ce3-1L-Tk7"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green: 204" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAt-S4-Svg">
+                                <rect key="frame" x="16" y="324" width="82" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81.5" id="0tt-JP-O6C"/>
+                                    <constraint firstAttribute="height" constant="21" id="Ga7-cJ-msS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="102" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="H9a-gQ-5f9">
+                                <rect key="frame" x="105" y="242" width="201" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="197" id="pgL-8u-lJE"/>
+                                    <constraint firstAttribute="height" constant="30" id="q99-el-Avb"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="redSliderChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="l5c-D3-vka"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue: 255" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP8-5m-Me3">
+                                <rect key="frame" x="16" y="404" width="73" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="AmB-ac-qiq"/>
+                                    <constraint firstAttribute="width" constant="73" id="nw5-Hq-PgI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red: 102" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2v3-N5-0JA">
+                                <rect key="frame" x="16" y="246" width="67" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="4NS-Vh-Rwk"/>
+                                    <constraint firstAttribute="height" constant="21" id="w8y-2T-y5H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="bP8-5m-Me3" secondAttribute="centerY" constant="-130.5" id="79S-L1-KEd"/>
+                            <constraint firstAttribute="centerY" secondItem="H9a-gQ-5f9" secondAttribute="centerY" constant="27" id="EjA-Zm-5xi"/>
+                            <constraint firstAttribute="centerY" secondItem="Wp5-yx-qFC" secondAttribute="centerY" constant="234" id="Ffy-x8-ylg"/>
+                            <constraint firstAttribute="centerY" secondItem="hfO-B9-c3t" secondAttribute="centerY" constant="-51" id="HMG-Fw-fz2"/>
+                            <constraint firstAttribute="centerX" secondItem="bP8-5m-Me3" secondAttribute="centerX" constant="107.5" id="KfP-Lf-mes"/>
+                            <constraint firstAttribute="centerX" secondItem="3Rz-ie-zz6" secondAttribute="centerX" constant="-45.5" id="Oq6-0M-9rv"/>
+                            <constraint firstAttribute="centerX" secondItem="H9a-gQ-5f9" secondAttribute="centerX" constant="-45.5" id="S9m-cd-xOD"/>
+                            <constraint firstAttribute="centerY" secondItem="3Rz-ie-zz6" secondAttribute="centerY" constant="-131" id="W5q-pq-dzb"/>
+                            <constraint firstAttribute="centerY" secondItem="NAt-S4-Svg" secondAttribute="centerY" constant="-50.5" id="eKh-lN-Z4S"/>
+                            <constraint firstAttribute="centerX" secondItem="2v3-N5-0JA" secondAttribute="centerX" constant="110.5" id="l8y-jf-IMX"/>
+                            <constraint firstAttribute="centerX" secondItem="Wp5-yx-qFC" secondAttribute="centerX" constant="100.5" id="nzL-CC-0Jg"/>
+                            <constraint firstAttribute="centerX" secondItem="NAt-S4-Svg" secondAttribute="centerX" constant="103.25" id="prt-Ne-a7r"/>
+                            <constraint firstAttribute="centerX" secondItem="hfO-B9-c3t" secondAttribute="centerX" constant="-45.5" id="qVJ-dZ-4FO"/>
+                            <constraint firstAttribute="centerY" secondItem="2v3-N5-0JA" secondAttribute="centerY" constant="27.5" id="tOE-Ud-F1t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueLabel" destination="bP8-5m-Me3" id="hoj-pZ-dGb"/>
+                        <outlet property="blueSlider" destination="3Rz-ie-zz6" id="Udw-Fq-plZ"/>
+                        <outlet property="greenLabel" destination="NAt-S4-Svg" id="v5T-wz-HIT"/>
+                        <outlet property="greenSlider" destination="hfO-B9-c3t" id="5yl-9f-7Jg"/>
+                        <outlet property="mainLabel" destination="Wp5-yx-qFC" id="hja-O3-eas"/>
+                        <outlet property="redLabel" destination="2v3-N5-0JA" id="hor-cV-zaX"/>
+                        <outlet property="redSlider" destination="H9a-gQ-5f9" id="gFI-vs-n5i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="289"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04275BAF19EB1CA40043FCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04275BAE19EB1CA40043FCAD /* AppDelegate.swift */; };
+		04275BB119EB1CA40043FCAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04275BB019EB1CA40043FCAD /* ViewController.swift */; };
+		04275BB419EB1CA40043FCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04275BB219EB1CA40043FCAD /* Main.storyboard */; };
+		04275BB619EB1CA40043FCAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04275BB519EB1CA40043FCAD /* Images.xcassets */; };
+		04275BB919EB1CA40043FCAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04275BB719EB1CA40043FCAD /* LaunchScreen.xib */; };
+		04275BC519EB1CA40043FCAD /* SlidersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04275BC419EB1CA40043FCAD /* SlidersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04275BBF19EB1CA40043FCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04275BA119EB1CA40043FCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04275BA819EB1CA40043FCAD;
+			remoteInfo = Sliders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04275BA919EB1CA40043FCAD /* Sliders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sliders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04275BAD19EB1CA40043FCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04275BAE19EB1CA40043FCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04275BB019EB1CA40043FCAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04275BB319EB1CA40043FCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04275BB519EB1CA40043FCAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04275BB819EB1CA40043FCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04275BBE19EB1CA40043FCAD /* SlidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04275BC319EB1CA40043FCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04275BC419EB1CA40043FCAD /* SlidersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersTests.swift; sourceTree = "<group>"; };
+		04A1D62F19EB551E00B67FE4 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04275BA619EB1CA40043FCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04275BBB19EB1CA40043FCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04275BA019EB1CA40043FCAD = {
+			isa = PBXGroup;
+			children = (
+				04275BAB19EB1CA40043FCAD /* Sliders */,
+				04275BC119EB1CA40043FCAD /* SlidersTests */,
+				04275BAA19EB1CA40043FCAD /* Products */,
+				04A1D62F19EB551E00B67FE4 /* Scratchpad.playground */,
+			);
+			sourceTree = "<group>";
+		};
+		04275BAA19EB1CA40043FCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04275BA919EB1CA40043FCAD /* Sliders.app */,
+				04275BBE19EB1CA40043FCAD /* SlidersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04275BAB19EB1CA40043FCAD /* Sliders */ = {
+			isa = PBXGroup;
+			children = (
+				04275BAE19EB1CA40043FCAD /* AppDelegate.swift */,
+				04275BB019EB1CA40043FCAD /* ViewController.swift */,
+				04275BB219EB1CA40043FCAD /* Main.storyboard */,
+				04275BB519EB1CA40043FCAD /* Images.xcassets */,
+				04275BB719EB1CA40043FCAD /* LaunchScreen.xib */,
+				04275BAC19EB1CA40043FCAD /* Supporting Files */,
+			);
+			path = Sliders;
+			sourceTree = "<group>";
+		};
+		04275BAC19EB1CA40043FCAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04275BAD19EB1CA40043FCAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04275BC119EB1CA40043FCAD /* SlidersTests */ = {
+			isa = PBXGroup;
+			children = (
+				04275BC419EB1CA40043FCAD /* SlidersTests.swift */,
+				04275BC219EB1CA40043FCAD /* Supporting Files */,
+			);
+			path = SlidersTests;
+			sourceTree = "<group>";
+		};
+		04275BC219EB1CA40043FCAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04275BC319EB1CA40043FCAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04275BA819EB1CA40043FCAD /* Sliders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04275BC819EB1CA40043FCAD /* Build configuration list for PBXNativeTarget "Sliders" */;
+			buildPhases = (
+				04275BA519EB1CA40043FCAD /* Sources */,
+				04275BA619EB1CA40043FCAD /* Frameworks */,
+				04275BA719EB1CA40043FCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sliders;
+			productName = Sliders;
+			productReference = 04275BA919EB1CA40043FCAD /* Sliders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04275BBD19EB1CA40043FCAD /* SlidersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04275BCB19EB1CA40043FCAD /* Build configuration list for PBXNativeTarget "SlidersTests" */;
+			buildPhases = (
+				04275BBA19EB1CA40043FCAD /* Sources */,
+				04275BBB19EB1CA40043FCAD /* Frameworks */,
+				04275BBC19EB1CA40043FCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04275BC019EB1CA40043FCAD /* PBXTargetDependency */,
+			);
+			name = SlidersTests;
+			productName = SlidersTests;
+			productReference = 04275BBE19EB1CA40043FCAD /* SlidersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04275BA119EB1CA40043FCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Treehouse;
+				TargetAttributes = {
+					04275BA819EB1CA40043FCAD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					04275BBD19EB1CA40043FCAD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 04275BA819EB1CA40043FCAD;
+					};
+				};
+			};
+			buildConfigurationList = 04275BA419EB1CA40043FCAD /* Build configuration list for PBXProject "Sliders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04275BA019EB1CA40043FCAD;
+			productRefGroup = 04275BAA19EB1CA40043FCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04275BA819EB1CA40043FCAD /* Sliders */,
+				04275BBD19EB1CA40043FCAD /* SlidersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04275BA719EB1CA40043FCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04275BB419EB1CA40043FCAD /* Main.storyboard in Resources */,
+				04275BB919EB1CA40043FCAD /* LaunchScreen.xib in Resources */,
+				04275BB619EB1CA40043FCAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04275BBC19EB1CA40043FCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04275BA519EB1CA40043FCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04275BB119EB1CA40043FCAD /* ViewController.swift in Sources */,
+				04275BAF19EB1CA40043FCAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04275BBA19EB1CA40043FCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04275BC519EB1CA40043FCAD /* SlidersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04275BC019EB1CA40043FCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04275BA819EB1CA40043FCAD /* Sliders */;
+			targetProxy = 04275BBF19EB1CA40043FCAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04275BB219EB1CA40043FCAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04275BB319EB1CA40043FCAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04275BB719EB1CA40043FCAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04275BB819EB1CA40043FCAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04275BC619EB1CA40043FCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04275BC719EB1CA40043FCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04275BC919EB1CA40043FCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sliders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04275BCA19EB1CA40043FCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sliders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04275BCC19EB1CA40043FCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlidersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliders.app/Sliders";
+			};
+			name = Debug;
+		};
+		04275BCD19EB1CA40043FCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlidersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sliders.app/Sliders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04275BA419EB1CA40043FCAD /* Build configuration list for PBXProject "Sliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04275BC619EB1CA40043FCAD /* Debug */,
+				04275BC719EB1CA40043FCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04275BC819EB1CA40043FCAD /* Build configuration list for PBXNativeTarget "Sliders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04275BC919EB1CA40043FCAD /* Debug */,
+				04275BCA19EB1CA40043FCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04275BCB19EB1CA40043FCAD /* Build configuration list for PBXNativeTarget "SlidersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04275BCC19EB1CA40043FCAD /* Debug */,
+				04275BCD19EB1CA40043FCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04275BA119EB1CA40043FCAD /* Project object */;
+}
